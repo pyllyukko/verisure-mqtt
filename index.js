@@ -22,7 +22,7 @@ const verisure_prefix = 'verisure';
 
 if (flagDebug) {
     console.log(`Verisure username: ${config.verisureUsername}`);
-    console.log(`Verisure pwd: ${config.verisurePwd}`);
+    //console.log(`Verisure pwd: ${config.verisurePwd}`);
     console.log(`MQTT host: ${config.mqttBrokerHost}`);
     console.log(`MQTT host port: ${config.mqttBrokerPort}`);
     console.log(`MQTT root topic: ${config.mqttRootTopic}`);
