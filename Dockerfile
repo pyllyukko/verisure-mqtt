@@ -15,6 +15,9 @@ COPY . .
 RUN groupadd -r nodejs \
    && useradd -m -r -g nodejs nodejs
 
+# Make sure the files are readable by user nodejs
+RUN chmod -cR o+r .
+
 USER nodejs
 
 CMD ["npm", "start"]
